@@ -45,7 +45,6 @@ namespace Treehouse.FitnessFrog.Controllers
             {
                 Date = DateTime.Today,                
             };
-
             ViewBag.AcitivitiesSelectItems = new SelectList(Data.Data.Activities, "Id", "Name");
            
             return View(entry);

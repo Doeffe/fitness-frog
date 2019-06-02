@@ -14,7 +14,7 @@
 
             <div class="form-group">
                 @Html.LabelFor(m => m.Date ,new { @class = "control-label"})
-                @Html.TextBoxFor(m => m.Date,"{0:D}" ,  new { @class = "form-control"})
+                @Html.TextBoxFor(m => m.Date,"{0:d}" ,  new { @class = "form-control"})
             </div>
 
             <div class="form-group">
@@ -50,19 +50,13 @@
                 </div>
              </div>
 
-            <div class="form-group">
-                @Html.LabelFor(m => m.Exclude, new { @class = "control-label" })
-                <div>
-
-                    <label class="radio-inline">
-                        @Html.RadioButtonFor(m => m.Exclude, "False") No
+            <div class="form-group">               
+                <div class="checkbox">
+                    <label>
+                        @* this ensure that the false statement is also sent to the modelstate *@
+                        @Html.CheckBoxFor(m => m.Exclude) @Html.DisplayNameFor(m => m.Exclude)
                     </label>
-
-                    <label class="radio-inline">
-                        @Html.RadioButtonFor(m => m.Exclude, "True") Yes
-                    </label>
-                   
-                </div>
+                </div>                
             </div>
 
         </div>

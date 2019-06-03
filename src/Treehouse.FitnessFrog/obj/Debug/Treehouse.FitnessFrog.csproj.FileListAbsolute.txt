@@ -32,3 +32,4 @@ C:\Users\Nicolai Dørfler\source\repos\fitness-frog\src\Treehouse.FitnessFrog\ob
 C:\Users\Nicolai Dørfler\source\repos\fitness-frog\src\Treehouse.FitnessFrog\obj\Debug\Treehouse.FitnessFrog.csproj.CopyComplete
 C:\Users\Nicolai Dørfler\source\repos\fitness-frog\src\Treehouse.FitnessFrog\obj\Debug\Treehouse.FitnessFrog.dll
 C:\Users\Nicolai Dørfler\source\repos\fitness-frog\src\Treehouse.FitnessFrog\obj\Debug\Treehouse.FitnessFrog.pdb
+C:\Users\Nicolai Dørfler\source\repos\fitness-frog\src\Treehouse.FitnessFrog\obj\Debug\Treehouse.FitnessFrog.csprojAssemblyReference.cache
